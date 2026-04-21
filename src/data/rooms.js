@@ -1,0 +1,60 @@
+export const rooms = [
+  {
+    slug: 'chambre-1',
+    name: 'Chambre 1 (nom provisoire)',
+    shortDescription: 'Chambre intime ouverte sur la vallée, pensée pour les couples.',
+    longDescription:
+      "Au réveil, la brume se lève lentement sur la vallée. La chambre s'ouvre par une large fenêtre en bois ancien, cadre naturel sur les terrasses de sarrasin. Les matériaux sont bruts, le lit généreux, le silence total.",
+    capacity: 2,
+    bedType: 'Lit double',
+    surface: 20,
+    view: 'Vallée et rizières',
+    price: 85,
+    amenities: ['Wifi', 'Salle de bain privative', 'Petit-déjeuner inclus', 'Terrasse privée'],
+    images: ['chambre-1-01.jpg', 'chambre-1-02.jpg', 'chambre-1-03.jpg'],
+    mainImage: 'chambre-1-01.jpg',
+  },
+  {
+    slug: 'chambre-2',
+    name: 'Chambre 2 (nom provisoire)',
+    shortDescription:
+      'Chambre familiale spacieuse avec mezzanine, idéale pour les voyages en famille.',
+    longDescription:
+      'Un espace double niveau où petits et grands trouvent leur coin. La mezzanine accueille les enfants sous un toit en bois apparent, pendant que le niveau principal offre calme et confort aux parents. Grande baie vitrée donnant sur le jardin.',
+    capacity: 4,
+    bedType: '1 lit double + 2 lits simples en mezzanine',
+    surface: 32,
+    view: 'Jardin et montagnes',
+    price: 120,
+    amenities: [
+      'Wifi',
+      'Salle de bain privative',
+      'Petit-déjeuner inclus',
+      'Espace de rangement',
+      'Chauffage',
+    ],
+    images: ['chambre-2-01.jpg', 'chambre-2-02.jpg', 'chambre-2-03.jpg'],
+    mainImage: 'chambre-2-01.jpg',
+  },
+  {
+    slug: 'chambre-3',
+    name: 'Chambre 3 (nom provisoire)',
+    shortDescription: "Suite signature avec terrasse panoramique, pour une expérience d'exception.",
+    longDescription:
+      'La plus belle pièce de la maison. Une suite au dernier étage avec sa propre terrasse tournée vers les montagnes. Matériaux nobles, détails artisanaux Hmong, baignoire en bois. Un refuge pour ceux qui cherchent un moment vraiment à part.',
+    capacity: 2,
+    bedType: 'Lit king size',
+    surface: 38,
+    view: 'Panoramique sur les montagnes',
+    price: 180,
+    amenities: [
+      'Wifi',
+      'Salle de bain privative avec baignoire',
+      'Petit-déjeuner inclus',
+      'Terrasse panoramique privative',
+      'Produits de bain artisanaux',
+    ],
+    images: ['chambre-3-01.jpg', 'chambre-3-02.jpg', 'chambre-3-03.jpg', 'chambre-3-04.jpg'],
+    mainImage: 'chambre-3-01.jpg',
+  },
+]
