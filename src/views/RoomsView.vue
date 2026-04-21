@@ -2,8 +2,7 @@
 
 <template>
   <main>
-    <h1>Accueil</h1>
-    <p>Bienvenue à Tam Giác Mạch</p>
+    <h1>Nos chambres</h1>
   </main>
 </template>
 

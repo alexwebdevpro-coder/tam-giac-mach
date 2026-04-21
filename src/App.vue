@@ -1,11 +1,11 @@
-<script setup></script>
+<script setup>
+import { RouterView } from 'vue-router'
+import AppHeader from '@/components/layout/AppHeader.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p class="bg-red-500 text-white p-8">
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <AppHeader />
+  <RouterView />
 </template>
 
 <style scoped></style>
