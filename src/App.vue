@@ -2,7 +2,7 @@
 
 <template>
   <h1>You did it!</h1>
-  <p>
+  <p class="bg-red-500 text-white p-8">
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
     documentation
   </p>
