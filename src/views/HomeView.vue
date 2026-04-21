@@ -1,10 +1,66 @@
-<script setup></script>
+<script setup>
+import { RouterLink } from 'vue-router'
+import RoomCard from '@/components/rooms/RoomCard.vue'
+import { rooms } from '@/data/rooms.js'
+</script>
 
 <template>
-  <main>
-    <h1>Accueil</h1>
-    <p>Bienvenue à Tam Giác Mạch</p>
-  </main>
+  <section class="bg-stone-100 py-24 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-5xl md:text-6xl font-serif mb-6">
+        Une maison Hmong suspendue entre les montagnes
+      </h1>
+      <p class="text-lg text-stone-600 mb-8">
+        Maison d'hôtes au cœur des hauts plateaux de Hà Giang
+      </p>
+      <RouterLink
+        :to="{ name: 'house' }"
+        class="inline-block bg-stone-800 text-white px-8 py-3 rounded hover:bg-stone-700"
+      >
+        Découvrir le lieu
+      </RouterLink>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-20 text-center">
+    <h2 class="text-3xl font-serif mb-6">Bienvenue à Tam Giác Mạch</h2>
+    <p class="text-stone-700 mb-8 leading-relaxed">
+      Une ancienne maison Hmong rénovée avec soin, tenue avec passion, au cœur d'une région qui vit
+      au rythme des saisons et des récoltes de sarrasin. Un lieu pensé pour la rencontre, l'aventure
+      et la lenteur.
+    </p>
+    <RouterLink :to="{ name: 'house' }" class="text-stone-700 underline">
+      En savoir plus sur la maison
+    </RouterLink>
+  </section>
+
+  <section class="bg-stone-50 py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-serif mb-4 text-center">Nos chambres</h2>
+      <p class="text-stone-600 mb-12 text-center">Trois chambres, trois atmosphères</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <RoomCard v-for="room in rooms" :key="room.slug" :room="room" />
+      </div>
+
+      <div class="text-center mt-12">
+        <RouterLink :to="{ name: 'rooms' }" class="text-stone-700 underline">
+          Voir toutes les chambres
+        </RouterLink>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-20 text-center">
+    <h2 class="text-3xl font-serif mb-4">Prêt à vivre l'expérience ?</h2>
+    <p class="text-stone-600 mb-8">Contactez-nous pour préparer votre séjour.</p>
+    <RouterLink
+      :to="{ name: 'contact' }"
+      class="inline-block bg-stone-800 text-white px-8 py-3 rounded hover:bg-stone-700"
+    >
+      Nous contacter
+    </RouterLink>
+  </section>
 </template>
 
 <style scoped></style>
