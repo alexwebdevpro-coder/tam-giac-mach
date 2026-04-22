@@ -5,6 +5,7 @@ import CategorySection from '@/components/experiences/CategorySection.vue'
 import ExperienceModal from '@/components/experiences/ExperienceModal.vue'
 import { categories, experiences } from '@/data/experiences.js'
 import FadeIn from '@/components/ui/FadeIn.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 
 const experiencesByCategory = computed(() => {
   return categories.map((category) => ({
@@ -25,14 +26,13 @@ function closeModal() {
 </script>
 
 <template>
-  <section class="bg-stone-100 py-24 px-4">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-5xl md:text-6xl font-serif mb-6">Vivre la région</h1>
-      <p class="text-lg text-stone-600">
-        Des expériences pensées avec les habitants, au plus près du territoire.
-      </p>
-    </div>
-  </section>
+  <PageHero
+    image="/images/general/enfant-bufle.webp"
+    alt="Enfant et buffle dans la campagne vietnamienne"
+    title="Vivre la région"
+    subtitle="Des expériences pensées avec les habitants, au plus près du territoire."
+    object-position="object-[center_58%]"
+  />
   <FadeIn>
     <div class="max-w-6xl mx-auto px-4 py-20">
       <CategorySection

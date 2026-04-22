@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router'
 import ValueCard from '@/components/Home/ValueCard.vue'
 import FadeIn from '@/components/ui/FadeIn.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 
 const values = [
   {
@@ -24,12 +25,14 @@ const values = [
 </script>
 
 <template>
-  <section class="bg-stone-100 py-24 px-4">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-5xl md:text-6xl font-serif mb-6">La maison</h1>
-      <p class="text-lg text-stone-600">Une ancienne demeure Hmong rénovée avec l'âme intacte</p>
-    </div>
-  </section>
+  <PageHero
+    image="/images/general/cour-commune-2.webp"
+    alt="Cour commune de la maison"
+    title="La maison"
+    subtitle="Une ancienne demeure Hmong rénovée avec l'âme intacte"
+    object-position="object-[center_70%]"
+  />
+
   <FadeIn>
     <section class="max-w-5xl mx-auto px-4 py-20">
       <div class="grid md:grid-cols-2 gap-12 items-center">

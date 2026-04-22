@@ -1,17 +1,17 @@
 <script setup>
 import ContactForm from '@/components/contact/ContactForm.vue'
 import FadeIn from '@/components/ui/FadeIn.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 </script>
 
 <template>
-  <section class="bg-stone-100 py-24 px-4">
-    <div class="max-w-4xl mx-auto text-center">
-      <h1 class="text-5xl md:text-6xl font-serif mb-6">Nous contacter</h1>
-      <p class="text-lg text-stone-600">
-        Une question, une demande de réservation, une envie d'en savoir plus ?
-      </p>
-    </div>
-  </section>
+  <PageHero
+    image="/images/general/viet-marche-chemin.webp"
+    alt="Chemin de marché au Vietnam"
+    title="Nous contacter"
+    subtitle="Une question, une demande de réservation, une envie d'en savoir plus ?"
+    object-position="object-[center_28%]"
+  />
 
   <FadeIn>
     <section class="max-w-5xl mx-auto px-4 py-20">
