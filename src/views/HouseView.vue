@@ -101,7 +101,7 @@ const values = [
     </section>
   </FadeIn>
   <FadeIn>
-    <section class="bg-stone-50 py-20 px-4">
+    <section class="bg-driedbamboo-100 py-20 px-4">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl font-serif mb-6">La communauté et le territoire</h2>
         <p class="text-stone-700 leading-relaxed mb-8">
