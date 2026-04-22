@@ -24,7 +24,8 @@ function closeMenu() {
         <li>
           <RouterLink
             :to="{ name: 'home' }"
-            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="text-xl font-serif transition-colors duration-200 hover:text-sage-700"
+            @click="closeMenu"
           >
             Accueil
           </RouterLink>
@@ -32,7 +33,7 @@ function closeMenu() {
         <li>
           <RouterLink
             :to="{ name: 'house' }"
-            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             La maison
           </RouterLink>
@@ -40,7 +41,7 @@ function closeMenu() {
         <li>
           <RouterLink
             :to="{ name: 'rooms' }"
-            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             Chambres
           </RouterLink>
@@ -48,7 +49,7 @@ function closeMenu() {
         <li>
           <RouterLink
             :to="{ name: 'experiences' }"
-            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             Expériences
           </RouterLink>
@@ -56,7 +57,7 @@ function closeMenu() {
         <li>
           <RouterLink
             :to="{ name: 'contact' }"
-            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             Contact
           </RouterLink>
@@ -83,7 +84,7 @@ function closeMenu() {
           <RouterLink
             :to="{ name: 'home' }"
             @click="closeMenu"
-            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="block py-2 transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             Accueil
           </RouterLink>
@@ -92,7 +93,7 @@ function closeMenu() {
           <RouterLink
             :to="{ name: 'house' }"
             @click="closeMenu"
-            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="block py-2 transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             La maison
           </RouterLink>
@@ -101,7 +102,7 @@ function closeMenu() {
           <RouterLink
             :to="{ name: 'rooms' }"
             @click="closeMenu"
-            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="block py-2 transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             Chambres
           </RouterLink>
@@ -110,7 +111,7 @@ function closeMenu() {
           <RouterLink
             :to="{ name: 'experiences' }"
             @click="closeMenu"
-            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="block py-2 transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             Expériences
           </RouterLink>
@@ -119,7 +120,7 @@ function closeMenu() {
           <RouterLink
             :to="{ name: 'contact' }"
             @click="closeMenu"
-            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+            class="block py-2 transition-colors duration-200 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
           >
             Contact
           </RouterLink>
