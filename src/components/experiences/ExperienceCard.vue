@@ -14,7 +14,12 @@ defineEmits(['open'])
     class="bg-white border border-stone-200 rounded-lg overflow-hidden hover:border-stone-400 transition-colors cursor-pointer"
     @click="$emit('open', experience)"
   >
-    <div class="bg-stone-200 aspect-4/3"></div>
+    <img
+      v-if="experience.image"
+      :src="experience.image"
+      :alt="experience.title"
+      class="w-full aspect-4/3 object-cover"
+    />
     <div class="p-5">
       <h3 class="text-lg font-serif mb-2">{{ experience.title }}</h3>
       <p class="text-stone-600 text-sm mb-4 leading-relaxed">

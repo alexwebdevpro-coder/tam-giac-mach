@@ -5,17 +5,22 @@ import { rooms } from '@/data/rooms.js'
 </script>
 
 <template>
-  <section class="bg-stone-100 py-24 px-4">
-    <div class="max-w-4xl mx-auto text-center">
+  <section class="relative h-[80vh] min-h-125 flex items-center justify-center px-4">
+    <img
+      src="/images/general/maison-riziere.webp"
+      alt="Rizières en terrasses du nord du Vietnam"
+      class="absolute inset-0 w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <div class="relative max-w-4xl mx-auto text-center text-white">
       <h1 class="text-5xl md:text-6xl font-serif mb-6">
         Une maison Hmong suspendue entre les montagnes
       </h1>
-      <p class="text-lg text-stone-600 mb-8">
-        Maison d'hôtes au cœur des hauts plateaux de Hà Giang
-      </p>
+      <p class="text-lg mb-8">Maison d'hôtes au cœur des hauts plateaux de Hà Giang</p>
       <RouterLink
         :to="{ name: 'house' }"
-        class="inline-block bg-stone-800 text-white px-8 py-3 rounded hover:bg-stone-700"
+        class="inline-block bg-white text-stone-800 px-8 py-3 rounded hover:bg-stone-100"
       >
         Découvrir le lieu
       </RouterLink>

@@ -34,7 +34,11 @@ const values = [
 
   <section class="max-w-5xl mx-auto px-4 py-20">
     <div class="grid md:grid-cols-2 gap-12 items-center">
-      <div class="bg-stone-200 aspect-4/3 rounded-lg"></div>
+      <img
+        src="/images/general/maison-dhote.webp"
+        alt="La maison d'hôtes"
+        class="w-full aspect-4/3 object-cover rounded-lg"
+      />
       <div>
         <h2 class="text-3xl font-serif mb-6">Le lieu et son histoire</h2>
         <p class="text-stone-700 leading-relaxed mb-4">
@@ -85,7 +89,11 @@ const values = [
           fait ici sans elle.
         </p>
       </div>
-      <div class="bg-stone-200 aspect-square rounded-lg md:order-last order-first"></div>
+      <img
+        src="/images/general/hmong-travaille-riziere.webp"
+        alt="Hmong au travail dans les rizières"
+        class="w-full aspect-square object-cover rounded-lg md:order-last order-first"
+      />
     </div>
   </section>
 
@@ -98,9 +106,21 @@ const values = [
         village. Ce n'est pas un détail : c'est l'esprit du lieu.
       </p>
       <div class="grid grid-cols-3 gap-4">
-        <div class="bg-stone-200 aspect-square rounded-lg"></div>
-        <div class="bg-stone-200 aspect-square rounded-lg"></div>
-        <div class="bg-stone-200 aspect-square rounded-lg"></div>
+        <img
+          src="/images/general/danse-hmong.webp"
+          alt="Danse Hmong"
+          class="w-full aspect-square object-cover rounded-lg"
+        />
+        <img
+          src="/images/general/marche-legume.webp"
+          alt="Marché de légumes"
+          class="w-full aspect-square object-cover rounded-lg"
+        />
+        <img
+          src="/images/general/hmong-assis.webp"
+          alt="Habitants Hmong"
+          class="w-full aspect-square object-cover rounded-lg"
+        />
       </div>
     </div>
   </section>

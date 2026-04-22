@@ -33,7 +33,7 @@ export const experiences = [
     duration: 'Demi-journée',
     difficulty: 'Facile',
     season: "Toute l'année",
-    image: 'col-ma-pi-leng.jpg',
+    image: '/images/experiences/col.webp',
   },
   {
     id: 'rizieres-terrasses',
@@ -46,7 +46,7 @@ export const experiences = [
     duration: '3 heures',
     difficulty: 'Facile',
     season: 'Printemps et automne',
-    image: 'rizieres-terrasses.jpg',
+    image: '/images/experiences/riziere-en-terrasses.webp',
   },
   {
     id: 'marche-hmong-dong-van',
@@ -58,7 +58,7 @@ export const experiences = [
     duration: 'Demi-journée',
     difficulty: 'Facile',
     season: "Toute l'année (dimanche)",
-    image: 'marche-hmong.jpg',
+    image: '/images/experiences/marche.webp',
   },
   {
     id: 'tissage-dao',
@@ -70,7 +70,7 @@ export const experiences = [
     duration: '2 heures',
     difficulty: 'Facile',
     season: "Toute l'année",
-    image: 'tissage-dao.jpg',
+    image: '/images/experiences/tailor.webp',
   },
   {
     id: 'trek-deux-jours',
@@ -83,7 +83,7 @@ export const experiences = [
     duration: '2 jours / 1 nuit',
     difficulty: 'Soutenue',
     season: 'Printemps à automne',
-    image: 'trek-2-jours.jpg',
+    image: '/images/experiences/trek.webp',
   },
   {
     id: 'boucle-moto',
@@ -95,7 +95,7 @@ export const experiences = [
     duration: '3 à 4 jours',
     difficulty: 'Soutenue',
     season: 'Printemps à automne',
-    image: 'boucle-moto.jpg',
+    image: '/images/experiences/trek-moto.webp',
   },
   {
     id: 'cuisine-hmong',
@@ -107,7 +107,7 @@ export const experiences = [
     duration: '3 heures',
     difficulty: 'Facile',
     season: "Toute l'année",
-    image: 'cuisine-hmong.jpg',
+    image: '/images/experiences/cook.webp',
   },
   {
     id: 'the-shan-tuyet',
@@ -119,6 +119,6 @@ export const experiences = [
     duration: 'Demi-journée',
     difficulty: 'Facile',
     season: "Printemps (récolte) et toute l'année (dégustation)",
-    image: 'the-shan-tuyet.jpg',
+    image: '/images/experiences/tea.webp',
   },
 ]
