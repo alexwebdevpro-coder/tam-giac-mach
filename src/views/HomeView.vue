@@ -34,7 +34,7 @@ import { rooms } from '@/data/rooms.js'
       au rythme des saisons et des récoltes de sarrasin. Un lieu pensé pour la rencontre, l'aventure
       et la lenteur.
     </p>
-    <RouterLink :to="{ name: 'house' }" class="text-stone-700 underline">
+    <RouterLink :to="{ name: 'house' }" class="text-sage-700 underline hover:text-sage-800">
       En savoir plus sur la maison
     </RouterLink>
   </section>
@@ -49,7 +49,7 @@ import { rooms } from '@/data/rooms.js'
       </div>
 
       <div class="text-center mt-12">
-        <RouterLink :to="{ name: 'rooms' }" class="text-stone-700 underline">
+        <RouterLink :to="{ name: 'rooms' }" class="text-sage-700 underline hover:text-sage-800">
           Voir toutes les chambres
         </RouterLink>
       </div>
