@@ -57,11 +57,11 @@ const values = [
     </section>
   </FadeIn>
   <FadeIn>
-    <section class="bg-stone-50 py-20 px-4">
+    <section class="bg-bamboo-700 py-20 px-4">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-3xl font-serif mb-4">Notre philosophie</h2>
-          <p class="text-stone-600 max-w-2xl mx-auto">
+          <h2 class="text-3xl font-serif mb-4 text-white">Notre philosophie</h2>
+          <p class="text-bamboo-100 max-w-2xl mx-auto">
             Quatre valeurs qui guident notre façon d'accueillir et de faire vivre ce lieu.
           </p>
         </div>
