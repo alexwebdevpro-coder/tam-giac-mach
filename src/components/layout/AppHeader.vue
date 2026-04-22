@@ -22,19 +22,44 @@ function closeMenu() {
 
       <ul class="hidden md:flex gap-6">
         <li>
-          <RouterLink :to="{ name: 'home' }">Accueil</RouterLink>
+          <RouterLink
+            :to="{ name: 'home' }"
+            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
+            Accueil
+          </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'house' }">La maison</RouterLink>
+          <RouterLink
+            :to="{ name: 'house' }"
+            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
+            La maison
+          </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'rooms' }">Chambres</RouterLink>
+          <RouterLink
+            :to="{ name: 'rooms' }"
+            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
+            Chambres
+          </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'experiences' }">Expériences</RouterLink>
+          <RouterLink
+            :to="{ name: 'experiences' }"
+            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
+            Expériences
+          </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'contact' }">Contact</RouterLink>
+          <RouterLink
+            :to="{ name: 'contact' }"
+            class="hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
+            Contact
+          </RouterLink>
         </li>
       </ul>
 
@@ -55,27 +80,47 @@ function closeMenu() {
     >
       <ul class="flex flex-col p-4 gap-4">
         <li>
-          <RouterLink :to="{ name: 'home' }" @click="closeMenu" class="block py-2">
+          <RouterLink
+            :to="{ name: 'home' }"
+            @click="closeMenu"
+            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
             Accueil
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'house' }" @click="closeMenu" class="block py-2">
+          <RouterLink
+            :to="{ name: 'house' }"
+            @click="closeMenu"
+            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
             La maison
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'rooms' }" @click="closeMenu" class="block py-2">
+          <RouterLink
+            :to="{ name: 'rooms' }"
+            @click="closeMenu"
+            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
             Chambres
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'experiences' }" @click="closeMenu" class="block py-2">
+          <RouterLink
+            :to="{ name: 'experiences' }"
+            @click="closeMenu"
+            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
             Expériences
           </RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'contact' }" @click="closeMenu" class="block py-2">
+          <RouterLink
+            :to="{ name: 'contact' }"
+            @click="closeMenu"
+            class="block py-2 hover:text-sage-700 [&.router-link-active]:text-sage-700 [&.router-link-active]:font-medium"
+          >
             Contact
           </RouterLink>
         </li>

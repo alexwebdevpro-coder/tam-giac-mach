@@ -58,7 +58,7 @@ const room = computed(() => {
   <section v-else class="max-w-4xl mx-auto px-4 py-12 text-center">
     <h1 class="text-4xl font-serif mb-4">Chambre introuvable</h1>
     <p class="text-stone-600 mb-8">Cette chambre n'existe pas ou n'est plus disponible.</p>
-    <RouterLink :to="{ name: 'rooms' }" class="text-stone-700 underline">
+    <RouterLink :to="{ name: 'rooms' }" class="text-sage-700 underline hover:text-sage-800">
       Voir toutes les chambres
     </RouterLink>
   </section>

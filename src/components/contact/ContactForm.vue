@@ -78,7 +78,7 @@ function resetForm() {
 
       <button
         type="submit"
-        class="w-full bg-stone-800 text-white px-6 py-3 rounded hover:bg-stone-700"
+        class="w-full bg-sage-600 text-white px-6 py-3 rounded hover:bg-sage-700"
       >
         Envoyer le message
       </button>
@@ -88,7 +88,9 @@ function resetForm() {
   <div v-else class="bg-stone-50 border border-stone-200 rounded-lg p-8 text-center">
     <h3 class="text-xl font-serif mb-3">Merci pour votre message</h3>
     <p class="text-stone-700 mb-6">Nous vous répondrons sous 48 heures.</p>
-    <button @click="resetForm" class="text-stone-700 underline">Envoyer un autre message</button>
+    <button @click="resetForm" class="text-sage-700 underline hover:text-sage-800">
+      Envoyer un autre message
+    </button>
   </div>
 </template>
 
