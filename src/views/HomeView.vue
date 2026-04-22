@@ -42,7 +42,7 @@ import DarkCallToAction from '@/components/ui/DarkCallToAction.vue'
     </section>
   </FadeIn>
   <FadeIn>
-    <section class="bg-stone-50 py-20 px-4">
+    <section class="bg-driedbamboo-100 py-20 px-4">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-3xl font-serif mb-4 text-center">Nos chambres</h2>
         <p class="text-stone-600 mb-12 text-center">Trois chambres, trois atmosphères</p>

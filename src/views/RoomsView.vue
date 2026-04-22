@@ -15,8 +15,8 @@ import PageHero from '@/components/ui/PageHero.vue'
   />
 
   <FadeIn>
-    <section class="max-w-6xl mx-auto px-4 py-12">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section class="bg-driedbamboo-100 py-20 px-4">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <RoomCard v-for="room in rooms" :key="room.slug" :room="room" />
       </div>
     </section>

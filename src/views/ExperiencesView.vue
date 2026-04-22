@@ -33,17 +33,27 @@ function closeModal() {
     subtitle="Des expériences pensées avec les habitants, au plus près du territoire."
     object-position="object-[center_58%]"
   />
+
   <FadeIn>
-    <div class="max-w-6xl mx-auto px-4 py-20">
-      <CategorySection
-        v-for="group in experiencesByCategory"
-        :key="group.category.key"
-        :category="group.category"
-        :experiences="group.experiences"
-        @open="openModal"
-      />
-    </div>
+    <section class="max-w-3xl mx-auto px-4 py-12 text-center">
+      <p class="text-stone-700 leading-relaxed">
+        Depuis Tam Giác Mạch, la région se découvre en marchant, en rencontrant, en goûtant. Voici
+        les expériences que nous aimons partager.
+      </p>
+    </section>
   </FadeIn>
+
+  <section class="bg-driedbamboo-100 py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <FadeIn v-for="group in experiencesByCategory" :key="group.category.key">
+        <CategorySection
+          :category="group.category"
+          :experiences="group.experiences"
+          @open="openModal"
+        />
+      </FadeIn>
+    </div>
+  </section>
 
   <DarkCallToAction
     title="Envie d'en savoir plus ?"
