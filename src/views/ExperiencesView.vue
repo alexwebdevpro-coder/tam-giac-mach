@@ -58,7 +58,23 @@ function closeModal() {
     </div>
   </section>
 
-  <ExperienceModal v-if="selectedExperience" :experience="selectedExperience" @close="closeModal" />
+  <Transition name="fade">
+    <ExperienceModal
+      v-if="selectedExperience"
+      :experience="selectedExperience"
+      @close="closeModal"
+    />
+  </Transition>
 </template>
 
-<style scoped></style>
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
