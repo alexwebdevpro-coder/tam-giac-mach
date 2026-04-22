@@ -12,6 +12,12 @@ const room = computed(() => {
 
 <template>
   <section v-if="room" class="max-w-4xl mx-auto px-4 py-12">
+    <img
+      v-if="room.image"
+      :src="room.image"
+      :alt="room.name"
+      class="w-full h-80 object-cover rounded-lg mb-8"
+    />
     <h1 class="text-4xl font-serif mb-4">{{ room.name }}</h1>
     <p class="text-lg text-stone-600 mb-8">{{ room.shortDescription }}</p>
 

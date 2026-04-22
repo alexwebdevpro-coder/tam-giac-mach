@@ -9,6 +9,12 @@ defineProps({
 
 <template>
   <article class="border border-stone-300 rounded-lg overflow-hidden bg-white">
+    <img
+      v-if="room.image"
+      :src="room.image"
+      :alt="room.name"
+      class="w-full h-56 object-cover"
+    />
     <div class="p-6">
       <h3 class="text-xl font-serif mb-2">{{ room.name }}</h3>
       <p class="text-stone-600 text-sm mb-4">{{ room.shortDescription }}</p>
