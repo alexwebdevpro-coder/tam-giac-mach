@@ -1,5 +1,6 @@
 <script setup>
 import ContactForm from '@/components/contact/ContactForm.vue'
+import FadeIn from '@/components/ui/FadeIn.vue'
 </script>
 
 <template>
@@ -12,11 +13,12 @@ import ContactForm from '@/components/contact/ContactForm.vue'
     </div>
   </section>
 
-  <section class="max-w-5xl mx-auto px-4 py-20">
-    <div class="grid md:grid-cols-2 gap-12">
-      <div>
-        <h2 class="text-2xl font-serif mb-6">Écrivez-nous</h2>
-        <ContactForm />
+  <FadeIn>
+    <section class="max-w-5xl mx-auto px-4 py-20">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-2xl font-serif mb-6">Écrivez-nous</h2>
+          <ContactForm />
       </div>
 
       <div>
@@ -55,6 +57,7 @@ import ContactForm from '@/components/contact/ContactForm.vue'
       </div>
     </div>
   </section>
+  </FadeIn>
 </template>
 
 <style scoped></style>
