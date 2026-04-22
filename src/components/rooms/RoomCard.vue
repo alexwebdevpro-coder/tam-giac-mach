@@ -8,8 +8,16 @@ defineProps({
 </script>
 
 <template>
-  <article class="border border-stone-300 rounded-lg overflow-hidden bg-white">
-    <img v-if="room.image" :src="room.image" :alt="room.name" class="w-full h-56 object-cover" />
+  <article
+    class="border border-stone-300 rounded-lg overflow-hidden bg-white transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group"
+  >
+    <div class="overflow-hidden">
+      <img
+        :src="room.image"
+        :alt="room.name"
+        class="w-full aspect-4/3 object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+    </div>
     <div class="p-6">
       <h3 class="text-xl font-serif mb-2">{{ room.name }}</h3>
       <p class="text-stone-600 text-sm mb-4">{{ room.shortDescription }}</p>
