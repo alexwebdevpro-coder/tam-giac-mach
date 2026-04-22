@@ -3,6 +3,7 @@ import { RouterLink } from 'vue-router'
 import RoomCard from '@/components/rooms/RoomCard.vue'
 import FadeIn from '@/components/ui/FadeIn.vue'
 import { rooms } from '@/data/rooms.js'
+import DarkCallToAction from '@/components/ui/DarkCallToAction.vue'
 </script>
 
 <template>
@@ -59,16 +60,12 @@ import { rooms } from '@/data/rooms.js'
     </section>
   </FadeIn>
   <FadeIn>
-    <section class="max-w-4xl mx-auto px-4 py-20 text-center">
-      <h2 class="text-3xl font-serif mb-4">Prêt à vivre l'expérience ?</h2>
-      <p class="text-stone-600 mb-8">Contactez-nous pour préparer votre séjour.</p>
-      <RouterLink
-        :to="{ name: 'contact' }"
-        class="inline-block bg-sage-600 text-white px-8 py-3 rounded hover:bg-sage-700"
-      >
-        Nous contacter
-      </RouterLink>
-    </section>
+    <DarkCallToAction
+      title="Prêt à vivre l'expérience ?"
+      description="Contactez-nous pour préparer votre séjour."
+      button-label="Nous contacter"
+      button-route="contact"
+    />
   </FadeIn>
 </template>
 
