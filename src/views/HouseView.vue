@@ -5,7 +5,7 @@ import ValueCard from '@/components/Home/ValueCard.vue'
 const values = [
   {
     title: 'Écotourisme',
-    description: 'Respect de l\'environnement, rénovation avec matériaux locaux, circuits courts.',
+    description: "Respect de l'environnement, rénovation avec matériaux locaux, circuits courts.",
   },
   {
     title: 'Cultures locales',
@@ -17,7 +17,7 @@ const values = [
   },
   {
     title: 'Gastronomie',
-    description: 'Cuisine locale préparée avec les produits de la ferme d\'à côté.',
+    description: "Cuisine locale préparée avec les produits de la ferme d'à côté.",
   },
 ]
 </script>
@@ -26,9 +26,7 @@ const values = [
   <section class="bg-stone-100 py-24 px-4">
     <div class="max-w-4xl mx-auto text-center">
       <h1 class="text-5xl md:text-6xl font-serif mb-6">La maison</h1>
-      <p class="text-lg text-stone-600">
-        Une ancienne demeure Hmong rénovée avec l'âme intacte
-      </p>
+      <p class="text-lg text-stone-600">Une ancienne demeure Hmong rénovée avec l'âme intacte</p>
     </div>
   </section>
 
@@ -42,14 +40,13 @@ const values = [
       <div>
         <h2 class="text-3xl font-serif mb-6">Le lieu et son histoire</h2>
         <p class="text-stone-700 leading-relaxed mb-4">
-          Construite il y a plus de 80 ans par une famille Hmong, la maison traverse les
-          générations avant d'être lentement remise en valeur. Les murs de bois, les
-          toitures en tuiles anciennes, les poutres apparentes : tout a été conservé.
+          Construite il y a plus de 80 ans par une famille Hmong, la maison traverse les générations
+          avant d'être lentement remise en valeur. Les murs de bois, les toitures en tuiles
+          anciennes, les poutres apparentes : tout a été conservé.
         </p>
         <p class="text-stone-700 leading-relaxed">
-          La rénovation s'est faite sur trois ans, main dans la main avec des artisans
-          locaux, en privilégiant toujours les matériaux de la région. Chaque détail
-          raconte ce territoire.
+          La rénovation s'est faite sur trois ans, main dans la main avec des artisans locaux, en
+          privilégiant toujours les matériaux de la région. Chaque détail raconte ce territoire.
         </p>
       </div>
     </div>
@@ -80,13 +77,12 @@ const values = [
       <div>
         <h2 class="text-3xl font-serif mb-6">L'hôte</h2>
         <p class="text-stone-700 leading-relaxed mb-4">
-          Installé dans la région il y a plusieurs années, tombé amoureux de ses paysages
-          et de ses habitants, j'ai choisi d'y enraciner un projet de maison d'hôtes
-          tourné vers la rencontre.
+          Installé dans la région il y a plusieurs années, tombé amoureux de ses paysages et de ses
+          habitants, j'ai choisi d'y enraciner un projet de maison d'hôtes tourné vers la rencontre.
         </p>
         <p class="text-stone-700 leading-relaxed">
-          Le personnel et les guides sont tous issus de la communauté locale. Rien ne se
-          fait ici sans elle.
+          Le personnel et les guides sont tous issus de la communauté locale. Rien ne se fait ici
+          sans elle.
         </p>
       </div>
       <img
@@ -101,9 +97,9 @@ const values = [
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-serif mb-6">La communauté et le territoire</h2>
       <p class="text-stone-700 leading-relaxed mb-8">
-        La maison est ancrée dans un tissu humain. Les légumes viennent de la ferme d'à
-        côté, le thé des producteurs de Shan Tuyết voisins, les tissages des femmes du
-        village. Ce n'est pas un détail : c'est l'esprit du lieu.
+        La maison est ancrée dans un tissu humain. Les légumes viennent de la ferme d'à côté, le thé
+        des producteurs de Shan Tuyết voisins, les tissages des femmes du village. Ce n'est pas un
+        détail : c'est l'esprit du lieu.
       </p>
       <div class="grid grid-cols-3 gap-4">
         <img
@@ -127,12 +123,10 @@ const values = [
 
   <section class="max-w-4xl mx-auto px-4 py-20 text-center">
     <h2 class="text-3xl font-serif mb-4">Prêt à découvrir les chambres ?</h2>
-    <p class="text-stone-600 mb-8">
-      Trois atmosphères, toutes tournées vers la vallée.
-    </p>
+    <p class="text-stone-600 mb-8">Trois atmosphères, toutes tournées vers la vallée.</p>
     <RouterLink
       :to="{ name: 'rooms' }"
-      class="inline-block bg-stone-800 text-white px-8 py-3 rounded hover:bg-stone-700"
+      class="inline-block bg-sage-600 text-white px-8 py-3 rounded hover:bg-sage-700"
     >
       Voir les chambres
     </RouterLink>

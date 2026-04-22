@@ -78,7 +78,7 @@ function resetForm() {
 
       <button
         type="submit"
-        class="w-full bg-stone-800 text-white px-6 py-3 rounded hover:bg-stone-700"
+        class="w-full bg-sage-600 text-white px-6 py-3 rounded hover:bg-sage-700"
       >
         Envoyer le message
       </button>

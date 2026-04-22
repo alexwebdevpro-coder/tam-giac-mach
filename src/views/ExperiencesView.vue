@@ -51,7 +51,7 @@ function closeModal() {
       </p>
       <RouterLink
         :to="{ name: 'contact' }"
-        class="inline-block bg-stone-800 text-white px-8 py-3 rounded hover:bg-stone-700"
+        class="inline-block bg-sage-600 text-white px-8 py-3 rounded hover:bg-sage-700"
       >
         Nous contacter
       </RouterLink>

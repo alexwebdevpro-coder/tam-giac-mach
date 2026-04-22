@@ -15,13 +15,13 @@ import { RouterLink } from 'vue-router'
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <RouterLink
           :to="{ name: 'home' }"
-          class="inline-block bg-stone-800 text-white px-6 py-3 rounded hover:bg-stone-700"
+          class="inline-block bg-sage-600 text-white px-6 py-3 rounded hover:bg-sage-700"
         >
           Retour à l'accueil
         </RouterLink>
         <RouterLink
           :to="{ name: 'rooms' }"
-          class="inline-block border border-stone-800 text-stone-800 px-6 py-3 rounded hover:bg-stone-100"
+          class="inline-block border border-sage-600 text-sage-600 px-6 py-3 rounded hover:bg-sage-100"
         >
           Voir les chambres
         </RouterLink>
