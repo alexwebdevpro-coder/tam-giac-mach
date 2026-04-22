@@ -15,7 +15,13 @@ defineEmits(['close'])
     @click.self="$emit('close')"
   >
     <div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-      <div class="bg-stone-200 aspect-video"></div>
+      <img
+        v-if="experience.image"
+        :src="experience.image"
+        :alt="experience.title"
+        class="w-full aspect-video object-cover"
+      />
+      <div v-else class="bg-stone-200 aspect-video"></div>
 
       <div class="p-8">
         <div class="flex items-start justify-between mb-4">
