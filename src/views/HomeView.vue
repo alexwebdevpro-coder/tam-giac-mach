@@ -14,6 +14,7 @@ import DarkCallToAction from '@/components/ui/DarkCallToAction.vue'
       class="absolute inset-0 w-full h-full object-cover"
       fetchpriority="high"
       loading="eager"
+      decoding="async"
     />
     <div class="absolute inset-0 bg-black/40"></div>
 
