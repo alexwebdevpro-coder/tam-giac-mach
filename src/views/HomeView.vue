@@ -12,6 +12,8 @@ import DarkCallToAction from '@/components/ui/DarkCallToAction.vue'
       src="/images/general/maison-riziere.webp"
       alt="Rizières en terrasses du nord du Vietnam"
       class="absolute inset-0 w-full h-full object-cover"
+      fetchpriority="high"
+      loading="eager"
     />
     <div class="absolute inset-0 bg-black/40"></div>
 

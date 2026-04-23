@@ -17,6 +17,8 @@ const room = computed(() => {
       v-if="room.image"
       :src="room.image"
       :alt="room.name"
+      fetchpriority="high"
+      loading="eager"
       class="w-full h-80 object-cover rounded-lg mb-8"
     />
     <FadeIn>

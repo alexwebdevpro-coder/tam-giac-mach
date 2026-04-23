@@ -19,6 +19,7 @@ defineEmits(['close'])
         v-if="experience.image"
         :src="experience.image"
         :alt="experience.title"
+        loading="lazy"
         class="w-full aspect-video object-cover"
       />
       <div v-else class="bg-stone-200 aspect-video"></div>
