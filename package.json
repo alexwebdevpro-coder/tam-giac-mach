@@ -10,7 +10,8 @@
     "lint": "run-s lint:*",
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
-    "format": "prettier --write --experimental-cli src/"
+    "format": "prettier --write --experimental-cli src/",
+    "optimize:images": "node scripts/optimize-images.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",
@@ -29,6 +30,7 @@
     "npm-run-all2": "^8.0.4",
     "oxlint": "~1.60.0",
     "prettier": "3.8.3",
+    "sharp": "^0.34.5",
     "vite": "^8.0.8",
     "vite-plugin-vue-devtools": "^8.1.1"
   },

@@ -16,6 +16,7 @@ defineProps({
         :src="room.image"
         :alt="room.name"
         loading="lazy"
+        decoding="async"
         class="w-full aspect-4/3 object-cover transition-transform duration-500 group-hover:scale-105"
       />
     </div>
