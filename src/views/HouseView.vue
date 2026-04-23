@@ -6,18 +6,22 @@ import PageHero from '@/components/ui/PageHero.vue'
 
 const values = [
   {
+    emoji: '🌿',
     title: 'Écotourisme',
     description: "Respect de l'environnement, rénovation avec matériaux locaux, circuits courts.",
   },
   {
+    emoji: '🎎',
     title: 'Cultures locales',
     description: 'Rencontres avec les communautés Hmong et Dao, guides issus des villages voisins.',
   },
   {
+    emoji: '🧗',
     title: 'Aventure',
     description: 'Randonnées, treks, routes de montagne : la région se découvre en marchant.',
   },
   {
+    emoji: '🍽️',
     title: 'Gastronomie',
     description: "Cuisine locale préparée avec les produits de la ferme d'à côté.",
   },
@@ -71,6 +75,7 @@ const values = [
           <ValueCard
             v-for="value in values"
             :key="value.title"
+            :emoji="value.emoji"
             :title="value.title"
             :description="value.description"
           />
