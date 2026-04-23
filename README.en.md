@@ -12,7 +12,7 @@
 
 Tam Giác Mạch (meaning "buckwheat" in Vietnamese) is an imaginary guesthouse set in a restored Hmong house. The website presents the property, its three rooms, the experiences offered in the region, and lets visitors get in touch.
 
-**🔗 Live demo**: _coming soon after deployment_
+**🔗 Live demo**: [tam-giac-mach.vercel.app](https://tam-giac-mach.vercel.app/)
 
 ---
 

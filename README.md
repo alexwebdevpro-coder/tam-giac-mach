@@ -12,7 +12,7 @@
 
 Tam Giác Mạch (« sarrasin » en vietnamien) est une maison d'hôtes imaginaire installée dans une ancienne demeure Hmong rénovée. Le site présente la maison, ses trois chambres, les expériences proposées dans la région, et permet aux visiteurs d'entrer en contact.
 
-**🔗 Démo en ligne** : _à venir après déploiement_
+**🔗 Démo en ligne** : [tam-giac-mach.vercel.app](https://tam-giac-mach.vercel.app/)
 
 ---
 
