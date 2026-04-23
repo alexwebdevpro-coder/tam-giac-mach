@@ -32,9 +32,15 @@ function closeMenu() {
         <li v-for="link in links" :key="link.name">
           <RouterLink
             :to="{ name: link.name }"
-            class="relative pb-1 text-driedbamboo-100 transition-colors duration-200 hover:text-driedbamboo-50 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:origin-center after:scale-x-0 after:bg-driedbamboo-100 after:transition-transform after:duration-300 after:content-[''] hover:after:scale-x-100 [&.router-link-active]:after:scale-x-100"
+            class="group relative grid pb-1 text-driedbamboo-100 transition-colors duration-200 hover:text-driedbamboo-50 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:origin-center after:scale-x-0 after:bg-driedbamboo-100 after:transition-transform after:duration-300 after:content-[''] hover:after:scale-x-100 [&.router-link-active]:after:scale-x-100"
           >
-            {{ link.label }}
+            <span class="invisible col-start-1 row-start-1 font-bold" aria-hidden="true">{{
+              link.label
+            }}</span>
+            <span
+              class="col-start-1 row-start-1 group-hover:font-bold group-[.router-link-active]:font-bold"
+              >{{ link.label }}</span
+            >
           </RouterLink>
         </li>
       </ul>
@@ -59,7 +65,7 @@ function closeMenu() {
           <RouterLink
             :to="{ name: link.name }"
             @click="closeMenu"
-            class="block py-2 text-driedbamboo-100 transition-colors duration-200 hover:text-driedbamboo-50 [&.router-link-active]:text-driedbamboo-50 [&.router-link-active]:font-medium"
+            class="block py-2 text-driedbamboo-100 transition-colors duration-200 hover:font-bold hover:text-driedbamboo-50 [&.router-link-active]:font-bold [&.router-link-active]:text-driedbamboo-50"
           >
             {{ link.label }}
           </RouterLink>
