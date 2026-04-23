@@ -32,6 +32,8 @@ defineProps({
     <img
       :src="image"
       :alt="alt"
+      fetchpriority="high"
+      loading="lazy"
       :class="['absolute inset-0 w-full h-full object-cover', objectPosition]"
     />
     <div class="absolute inset-0" :class="overlayOpacity"></div>

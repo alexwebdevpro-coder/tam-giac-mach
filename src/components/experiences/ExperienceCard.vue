@@ -18,6 +18,7 @@ defineEmits(['open'])
       v-if="experience.image"
       :src="experience.image"
       :alt="experience.title"
+      loading="lazy"
       class="w-full aspect-4/3 object-cover"
     />
     <div class="p-5">

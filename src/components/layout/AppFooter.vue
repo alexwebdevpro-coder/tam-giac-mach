@@ -24,7 +24,12 @@ const currentYear = new Date().getFullYear()
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         <div>
           <RouterLink :to="{ name: 'home' }" class="inline-block mb-4">
-            <img src="/images/brand/logo.svg" alt="Tam Giác Mạch" class="h-16 w-auto" />
+            <img
+              src="/images/brand/logo.svg"
+              alt="Tam Giác Mạch"
+              loading="lazy"
+              class="h-16 w-auto"
+            />
           </RouterLink>
           <p class="text-sm leading-relaxed text-driedbamboo-200">
             Maison d'hôtes au cœur des hauts plateaux de Hà Giang, dans une ancienne demeure Hmong
